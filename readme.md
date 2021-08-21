@@ -1,7 +1,7 @@
 ![](https://res.cloudinary.com/wesbos/image/upload/v1574876851/BJS/BJS-Social-Share.png)
 
 # Beginner JavaScript
-
+What if I threw in a random question here?  Would anyone notice if there were two?
 These are the starter files and solutions to the [Beginner JavaScript](https://BeginnerJavaScript.com) course
 
 ## Function Definition Diagram
