@@ -145,7 +145,7 @@ const wes = {
     }
 }
 
-// *Callback Functions
+// *Callback Functions - Functions passed into another function as an argument
 // *Click Callback
 const button = document.querySelector('.clickMe');
 console.log(button);
@@ -154,9 +154,18 @@ function handleClick() {
     console.log('Great Clicking!!');
 }
 
+button.addEventListener('click', handleClick);
+
+// *OR you can do the same thing this way Anonymous Function
 button.addEventListener('click', function() {
     console.log('Nice Job!!!');
 });
 
 // *Timer Callback
-setTimeout(function, 1000);
+// With a previously declared function...
+setTimeout(wes.yellHi, 1000);
+
+// Or with an anonymous function
+setTimeout(function() {
+    console.log('Done! Time to eat.')
+}, 999.99999999999999999);
